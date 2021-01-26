@@ -20,7 +20,7 @@
 
 2. Train the model.
 ```
-python3 main.py --dataset_dir=dataset --epochs=100 --batch_size=128
+python3 main.py --dataset_dir=dataset --epochs=100(default) --batch_size=128(default)
 ```
 3. Using pre-trained model
 ```
