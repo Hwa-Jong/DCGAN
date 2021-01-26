@@ -16,7 +16,7 @@
 ----------------
 ## Usage
 
-1. Preparing your dataset. (In my case, I prepared images in the dataset directory.)
+1. Preparing your dataset. (In my case, I prepared images in the "dataset" directory.)
 
 2. Train the model.
 
