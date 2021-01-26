@@ -3,5 +3,6 @@
 ###### Tensorflow1 implementation of DCGAN.
 ###### [paper](https://arxiv.org/pdf/1511.06434.pdf)
 ----------------
-##
+##Test
 
+![](https://github.com/Hwa-Jong/DCGAN/blob/main/img/Generator(DCGAN).png)
