@@ -1,2 +1,2 @@
-# GAN
-study GAN
+# DCGAN
+study DCGAN
