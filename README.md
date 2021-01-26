@@ -1,7 +1,7 @@
 # DCGAN in tensorflow1
-DCGAN in tensorflow2 : comming soon...
-Tensorflow1 implementation of DCGAN.
-[paper] URL https://arxiv.org/pdf/1511.06434.pdf
+H6 DCGAN in tensorflow2 : comming soon...
+H6 Tensorflow1 implementation of DCGAN.
+H6 [paper] URL https://arxiv.org/pdf/1511.06434.pdf
 ----------------
 ##
 
