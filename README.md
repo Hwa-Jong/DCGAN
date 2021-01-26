@@ -1,2 +1,3 @@
 # DCGAN in tensorflow1
-study DCGAN
+Tensorflow2 version : comming soon...
+
