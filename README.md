@@ -45,3 +45,18 @@
 
 ----------------
 ## Result 
+> ### 1 epoch
+> ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000001epoc.png)
+
+> ### 10 epochs
+> ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000010epoc.png)
+
+> ### 50 epochs
+> ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000050epoc.png)
+
+> ### 80 epochs
+> ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000080epoc.png)
+
+> ### 100 epochs
+> ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000100epoc.png)
+
