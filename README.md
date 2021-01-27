@@ -28,6 +28,10 @@ python3 main.py --dataset_dir=dataset --epochs=100(default) --batch_size=128(def
 ```
 3. Using pre-trained model
 ```
+python3 main.py --dataset_dir=<your dataset path> --load_path=<model path>
+```
+ex)
+```
 python3 main.py --dataset_dir=dataset --epochs=100(default) --batch_size=128(default) --load_path=results/0001_DCGAN_batch-128_epoch-100/ckpt/model.ckpt-50
 ```
 4. Generate images
