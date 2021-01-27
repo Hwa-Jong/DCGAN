@@ -19,13 +19,13 @@
 1. Preparing your dataset. (In my case, I prepared images in the "dataset" directory.)
 
 2. Train the model.
-```
-python3 main.py --dataset_dir=<your dataset path>
-```
-ex)
-```
-python3 main.py --dataset_dir=dataset --epochs=100(default) --batch_size=128(default)
-```
+> ```
+> python3 main.py --dataset_dir=<your dataset path>
+> ```
+> ex)
+> ```
+> python3 main.py --dataset_dir=dataset --epochs=100(default) --batch_size=128(default)
+> ```
 3. Using pre-trained model
 ```
 python3 main.py --dataset_dir=<your dataset path> --load_path=<model path>
