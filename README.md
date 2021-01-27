@@ -45,6 +45,7 @@
 
 ----------------
 ## Result 
+* Using 30k images of CelebA dataset.
 > ### 1 epoch
 > ![](https://github.com/Hwa-Jong/DCGAN-in-tf1/blob/main/img/fake%2000001epoc.png)
 
