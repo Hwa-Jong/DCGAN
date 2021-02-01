@@ -18,12 +18,12 @@ def Generator(x, batch_size):
         x = tf.layers.BatchNormalization()(x)
         x = tf.nn.relu(x)
 
-        #oncv2
+        #conv2
         x = conv2dT(name='Conv2', x=x, k_size=5, batch_size=batch_size, strides=2, channel_out=256, kernel_init=w_init)
         x = tf.layers.BatchNormalization()(x)
         x = tf.nn.relu(x)
 
-        #oncv3
+        #conv3
         x = conv2dT(name='Conv3', x=x, k_size=5, batch_size=batch_size, strides=2, channel_out=128, kernel_init=w_init)
         x = tf.layers.BatchNormalization()(x)
         x = tf.nn.relu(x)
@@ -43,13 +43,13 @@ def Discriminator(x):
         x = tf.nn.leaky_relu(x, alpha=0.2)
         x = tf.nn.dropout(x, rate=0.3)
 
-        #oncv2
+        #conv2
         x = conv2d(name='Conv2', x=x, k_size=5, strides=2, channel_out=256, kernel_init=w_init)
         x = tf.layers.BatchNormalization()(x)
         x = tf.nn.leaky_relu(x, alpha=0.2)
         x = tf.nn.dropout(x, rate=0.3)
 
-        #oncv3
+        #conv3
         x = conv2d(name='Conv3', x=x, k_size=5, strides=2, channel_out=512, kernel_init=w_init)
         x = tf.layers.BatchNormalization()(x)
         x = tf.nn.leaky_relu(x, alpha=0.2)
